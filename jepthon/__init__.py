@@ -8,9 +8,9 @@ from .core.session import jepiq
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.0.0"
-__license__ = "كـتابة وتـعديل فريـق جيبثون"
-__author__ = "جيبثون <https://T.ME/Jepthon>"
-__copyright__ = "JEPTHON TEAM (C) 2020 - 2021  " + __author__
+__license__ = "كـتابة وتـعديل الـمبرمـجﮧ سـمـيـر"
+__author__ = "مـاڪـس <https://T.ME/SEMO8L>"
+__copyright__ = "MAX TEAM (C) 2020 - 2021  " + __author__
 
 jepiq.version = __version__
 jepiq.tgbot.version = __version__
@@ -22,7 +22,7 @@ JEPVERSION = "3.1.3"
 
 
 if Config.UPSTREAM_REPO == "jepthoniq":
-    UPSTREAM_REPO_URL = "https://github.com/jepthoniq/jepthon"
+    UPSTREAM_REPO_URL = "https://github.com/SOURCESEM0/K_S"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
