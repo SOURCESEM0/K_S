@@ -14,14 +14,14 @@ __copyright__ = "MAX TEAM (C) 2020 - 2021  " + __author__
 
 jepiq.version = __version__
 jepiq.tgbot.version = __version__
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("SEMO8L")
 bot = jepiq
 
 StartTime = time.time()
 JEPVERSION = "3.1.3"
 
 
-if Config.UPSTREAM_REPO == "jepthoniq":
+if Config.UPSTREAM_REPO == "MAX":
     UPSTREAM_REPO_URL = "https://github.com/SOURCESEM0/K_S"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
