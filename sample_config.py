@@ -26,10 +26,10 @@ class Config(object):
     )
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
-    TZ = os.environ.get("TZ", "Asia/Baghdad")
+    TZ = os.environ.get("TZ", "Africa/Cairo")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/jepthoniq/jepthon.git"
+        "UPSTREAM_REPO", "https://github.com/SOURCESEM0/K_S.git"
     )
 
     # BASIC and MAIN CONFIG VARS
@@ -98,7 +98,7 @@ class Config(object):
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "catuserbot")
     # for custom thumb image set this with your required thumb telegraoh link
     THUMB_IMAGE = os.environ.get(
-        "THUMB_IMAGE", "https://telegra.ph/file/ca95524e4734b0d5461b5.jpg"
+        "THUMB_IMAGE", "https://telegra.ph/file/27156cedd867fec1d2a9e.jpg"
     )
     # specify NO_LOAD with plugin names for not loading in jepthon
     NO_LOAD = [x for x in os.environ.get("NO_LOAD", "").split()]
