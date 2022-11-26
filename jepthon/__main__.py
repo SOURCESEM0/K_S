@@ -16,7 +16,7 @@ from .utils import (
     saves,
 )
 
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("MAX")
 
 print(jepthon.__copyright__)
 print("Licensed under the terms of the " + jepthon.__license__)
@@ -24,7 +24,7 @@ print("Licensed under the terms of the " + jepthon.__license__)
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("جارِ بدء بوت الجوكر ✓")
+    LOGS.info("جارِ بدء بوت مـاڪس ✓")
     jepiq.loop.run_until_complete(setup_bot())
     LOGS.info("تم اكتمال تنصيب البوت ✓")
 except Exception as e:
@@ -57,10 +57,9 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-    print("᯽︙بـوت الجوكر يعـمل بـنجاح ")
+    print("᯽︙بـوت مـاڪـس يعـمل بـنجاح ")
     print(
-        f"تم تشغيل الانلاين تلقائياً ارسل {cmdhr}الاوامر لـرؤيـة اوامر السورس\
-        \nللمسـاعدة تواصـل  https://t.me/JepthonSupport"
+        f"⌔┊تـم تنصيـب سورس سيمو  . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي ..  الـمـبـرمـجہ سـمـيـر\n⌔┊قنـاة السـورس ↶.\n🌐┊@SEMO8L"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()
